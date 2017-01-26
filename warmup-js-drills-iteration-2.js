@@ -1,3 +1,19 @@
+
+// ---------------------------------------
+// EXERCISE : dogSpeak()
+//  (takes two arrays of values, and returns a smaller array)
+// ---------------------------------------
+// Write a `dogSpeak()` that takes an sentence string and 
+// replaces the first letter of each word with an 'r'
+
+
+
+
+
+console.assert( dogSpeak('i love you') === 'r rove rou' )
+console.assert( dogSpeak('Time for a walk') === 'rime ror r ralk' )
+console.assert( dogSpeak('Will you feed me?') === 'rill rou reed re' )
+
 // ---------------------------------------
 // EXERCISE : popAtIndex()
 //  (takes two arrays of values, and returns a smaller array)
@@ -24,7 +40,7 @@ var partySchools = [
 // EXAMPLE:
 //  popAtIndex(partySchools, [0,1,6,7])
 //  => ['West Virginia University', 'Miami University', 'University of Iowa', 'UC Santa Barbara']
-
+//     // (i.e. missing index-0 )
 var smallerList = popAtIndex(partySchools, [0,4,5])
 
 console.assert(smallerList.length === 5 )
