@@ -1,6 +1,6 @@
 
 // ---------------------------------------
-// EXERCISE : dogSpeak()
+// EXERCISE 1 : dogSpeak()
 //  (takes two arrays of values, and returns a smaller array)
 // ---------------------------------------
 // Write a `dogSpeak()` that takes an sentence string and 
@@ -12,10 +12,10 @@
 
 console.assert( dogSpeak('i love you') === 'r rove rou' )
 console.assert( dogSpeak('Time for a walk') === 'rime ror r ralk' )
-console.assert( dogSpeak('Will you feed me?') === 'rill rou reed re' )
+console.assert( dogSpeak('Will you feed me?') === 'rill rou reed re?' )
 
 // ---------------------------------------
-// EXERCISE : popAtIndex()
+// EXERCISE 2 : popAtIndex()
 //  (takes two arrays of values, and returns a smaller array)
 // ---------------------------------------
 // Write a `popAtIndex()` function that takes an array of values and an array of index
